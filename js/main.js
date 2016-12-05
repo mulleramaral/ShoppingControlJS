@@ -53,6 +53,7 @@ function setUpdate(id){
     document.getElementById("btnUpdate").style = "display:inline-block";
     document.getElementById("btnAdd").style = "display:none";
 
+
     document.getElementById("inputIDUpdate").innerHTML = '<input id="idUpdate" type="hidden" value=' + id + '>';
 }
 
